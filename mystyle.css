@@ -47,12 +47,11 @@ h1{
 #slider img {
   width: 250px;
   height: 250px;
-  justify-content: center;
 }
 
 #slider figure {
   position: relative;
-  width: 300%;
+  width: 500%;
   margin: 0;
   center: 0;
   animation: 20s slider infinite;
