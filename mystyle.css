@@ -1,10 +1,19 @@
 /* FONTS *********/
 
 @font-face {
-    font-family: Lemon_friday;
-    src: url(lemon_friday/Lemon Friday.ttf);
+    font-family: NewTegomin;
+    src: url(New_Tegomin/NewTegomin-Regular.ttf);
 }
 
+@font-face {
+    font-family: Comfortaa;
+    src: url(Comfortaa/Comfortaa-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: PatrickHand;
+    src: url(Patrick_Hand/PatrickHand-Regular.ttf);
+}
 
 /*****************/
 
@@ -15,9 +24,8 @@ body {
 }
 
 h1{
-  font-family: Lemon_friday;
+  font-family: NewTegomin;
 }
-
 
 #container {
   position: relative;
@@ -29,16 +37,64 @@ h1{
   background: #FFF;
   padding: 10px;
   margin-bottom: 15px;
-  font-family: "Courier New"
+  font-family: PatrickHand;
+}
+
+#slider{
+  overflow:hidden;
+}
+
+#slider figure{
+  position: relative;
+  width 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinate;
+}
+
+#slider figure img{
+  width: 20%;
+  float:left;
+}
+
+@keyframes slider{
+  0%{
+    left: 0;
+  }
+  20%{
+    left: 0;
+  }
+  25%{
+    left: -100%;
+  }
+  45%{
+    left: -100%;
+  }
+  50%{
+    left: -200%;
+  }
+  70%{
+    left: -200%;
+  }
+  75%{
+    left: -300%;
+  }
+  95%{
+    left: -300%
+  }
+  100%{
+    left: -400%;
+  }
 }
 
 ul {
   position: relative;
   list-style-type: none;
-  padding: 1.5px;
+  margin: 40px;
+  padding: 0px;
   display: flex;
-  justify-content: left;
-  margin-bottom: 19px;
+  justify-content: center;
+  font-family: DancingScript;
 }
 #box1{
   margin-left: 170px;
@@ -61,9 +117,8 @@ ul {
 
 a {
   text-decoration: none;
-  background: #FFF;
-  padding: 15px;
-  font-family: "Courier New"
+  padding: 10px;
+  font-family: Comfortaa;
 }
 
 a:hover{
