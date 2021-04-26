@@ -47,7 +47,7 @@ h1{
 #slider img {
   width: 250px;
   height: 250px;
-
+  justify-content: center;
 }
 
 #slider figure {
@@ -60,7 +60,7 @@ h1{
 
 #slider figure img {
   width: 20%;
-  float: left;
+  float: center;
 }
 
 @keyframes slider {
