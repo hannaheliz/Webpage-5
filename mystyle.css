@@ -40,29 +40,27 @@ h1{
   font-family: PatrickHand;
 }
 
-#slider{
+#slider {
   overflow: hidden;
-  display: flex;
-  justify-content: center;
 }
 
-#slider img{
+#slider img {
   width: 250px;
   height: 250px;
-  
+
 }
 
-#slider figure{
+#slider figure {
   position: relative;
-  width 500%;
+  width: 500%;
   margin: 0;
   left: 0;
-  animation: 20s slider infinate;
+  animation: 20s slider infinite;
 }
 
-#slider figure img{
+#slider figure img {
   width: 20%;
-  float:left;
+  float: left;
 }
 
 @keyframes slider {
