@@ -20,7 +20,14 @@
 body {
   display: flex;
   justify-content: center;
-  background: #e1d8c1;
+  background: repeating-linear-gradient(
+    45deg,
+    #e1d8c1,
+    #e1d8c1 10px,
+    #e1d8c1 10px,
+    #e1d8c1 20px,
+    )
+  #e1d8c1;
 }
 
 h1{
