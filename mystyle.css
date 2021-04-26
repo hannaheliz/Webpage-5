@@ -41,7 +41,7 @@ h1{
 }
 
 #slider{
-  overflow:hidden;
+  overflow: hidden;
 }
 
 #slider figure{
@@ -57,32 +57,32 @@ h1{
   float:left;
 }
 
-@keyframes slider{
-  0%{
+@keyframes slider {
+  0% {
     left: 0;
   }
-  20%{
+  20% {
     left: 0;
   }
-  25%{
+  25% {
     left: -100%;
   }
-  45%{
+  45% {
     left: -100%;
   }
-  50%{
+  50% {
     left: -200%;
   }
-  70%{
+  70% {
     left: -200%;
   }
-  75%{
+  75% {
     left: -300%;
   }
-  95%{
+  95% {
     left: -300%
   }
-  100%{
+  100% {
     left: -400%;
   }
 }
