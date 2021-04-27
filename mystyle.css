@@ -33,6 +33,16 @@ h1{
   width: 500px;
 }
 
+#Art-Cove-Designs {
+  display: flex;
+  justify-content: center;
+}
+
+#Art-Cove-Designs img{
+  width: 250px;
+  height: 250px;
+}
+
 #content-box {
   background: #FFF;
   padding: 10px;
