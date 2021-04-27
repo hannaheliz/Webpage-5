@@ -64,7 +64,7 @@ h1{
   width: 500%;
   margin: 0;
   center: 0;
-  animation: 20s slider infinite;
+  animation: 15s slider infinite;
 }
 
 #slider figure img {
@@ -98,7 +98,7 @@ h1{
     left: -300%
   }
   100% {
-    left: -400%;
+    left: -300%;
   }
 }
 
@@ -110,6 +110,7 @@ ul {
   display: flex;
   justify-content: center;
 }
+
 #box1{
   margin-left: 170px;
 }
