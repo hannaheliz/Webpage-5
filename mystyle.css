@@ -21,6 +21,10 @@ body {
   display: flex;
   justify-content: center;
   background:#e1d8c1;
+  background-color: #e1d8c1;
+background-image:  radial-gradient(#444cf7 1px, transparent 1px), radial-gradient(#444cf7 1px, #e5e5f7 1px);
+background-size: 40px 40px;
+background-position: 0 0,20px 20px;
 }
 
 h1{
